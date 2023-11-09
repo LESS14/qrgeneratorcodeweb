@@ -7,3 +7,16 @@
   background-image: linear-gradient(90deg, #1a5276, #7d3c98);
 }
 
+:root {
+  --rt-transition-show-delay: 0.30s;
+  --rt-transition-closing-delay: 0.15s;
+}
+
+.tooltip-generate-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  max-width: 200px;
+  text-align: center;
+}
+
