@@ -87,7 +87,7 @@ class QRCodeGenerator extends Component<{}, GeneratorState> {
               onClick={this.handleSendClick}
               disabled={isLoading}
               data-tooltip-id="tooltip-generate-button" 
-              data-tooltip-content="Gerar QR Code"
+              data-tooltip-content="Gerar QR Code • Enter"
               className={`${
                 isLoading
                   ? 'bg-gray-400 cursor-not-allowed'
